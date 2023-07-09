@@ -1,0 +1,19 @@
+#container {
+    font-size: 16px;
+}
+.main_heading {
+    background-color: grey;
+    padding-left: red;    
+}
+.main {
+    background-color: blue;
+    padding-left: red;
+}
+.main_footer {
+    background-color: green;
+    padding-left: red;
+}
+.main_header, 
+.main_footer {
+  color: red;
+}
