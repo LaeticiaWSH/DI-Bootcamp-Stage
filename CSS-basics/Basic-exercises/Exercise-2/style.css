@@ -1,0 +1,18 @@
+.char{
+    font-size: 25px;
+}
+#fx{
+    color: blue;
+    font-size: 50px;
+}
+#xd{
+    font-size: 35px;
+}
+#dx{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(15, 249, 101);
+}
+p{
+    background-color: rgb(231, 127, 127);
+}
