@@ -1,0 +1,31 @@
+.container{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 900px;
+    height: 70px;
+    border: 5px solid rgb(246, 198, 156);
+    display: flex;
+    flex-direction: row;
+}
+#L, #T, #P{
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+#L{
+    background-color: rgb(156, 157, 241);
+    margin-right: 0;
+}
+#T{
+    background-color: rgb(105, 168, 219);
+    width: 400px;
+    margin-right: 0;
+    margin-left: 0;
+}
+#P{
+    background-color: rgb(245, 168, 164);
+    width: 400px;
+    margin-left: 0;
+
+}

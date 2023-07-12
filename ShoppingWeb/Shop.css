@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+nav{
+   background-color: black; 
+   padding: 20px;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    
+}
+p{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

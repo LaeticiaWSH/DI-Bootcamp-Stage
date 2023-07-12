@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    position: relative;
+}
+img{
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+span{
+    text-align: justify;
+    width: 200px;   
+}
+
+span{
+    display: block;
+    margin: 0 auto;
+}
+p{
+    width: 200px;
+}
+.new{
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 25px;
+    left: 20px;   
+}
+#per{
+    position: absolute;
+    color: white;
+    background-color:red ;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px ;
+    left: 150px;
+    top: 25px;
+}
+#cen{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 545px;
+    top: 25px;       
+}
+.ne{
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 25px;
+    left: 785px;
+}
+#pe{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 910px;
+    top: 25px;
+}
+.n{
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 25px;
+    left: 1155px
+}
+#p{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 1284px;
+    top: 25px;
+}
+.co{
+    color: rgb(16, 133, 83);
+}
+.co s{
+    color: rgb(121, 118, 118);
+}
+button{
+    padding: 0;
+}

@@ -1,0 +1,144 @@
+body {
+    margin-top: 100px;
+}
+    
+
+section{
+    display:flex;
+    position: relative;
+}
+img {
+    margin: 40px;
+    justify-content: space-between;
+
+}
+
+ span { 
+    text-align: justify;
+    width: 200px;
+ } 
+
+  span {  
+    display: block; 
+     margin: 0 auto; 
+ } 
+
+#container {
+    width: 250px;
+    height: 1300;
+    display: flex;
+    flex-direction: row;   
+}
+#ko, #so, #po{
+    margin: 45px;
+}
+#po{
+    margin-left: 27px;
+}
+#to{
+    margin: 45px 45px 45px 8px;
+}
+ button{ 
+     font-size: 15px;
+     margin-top: 30px;
+     padding:10px ;
+     color: rgb(111, 108, 104);
+     background-color: white;
+     border: 0.5px solid black;
+ } 
+.co{
+    font-size: 20px;
+    margin-left: 10px;
+ }
+ s{
+    margin-left: 4px;
+    font-size: 14px;
+ }
+.sop{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.new {
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 55px;
+    left: 40px;
+}
+
+#per {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 170px;
+    top: 55px;
+}
+
+#cen {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 460px;
+    top: 55px;
+}
+
+.ne {
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 55px;
+    left: 615px;
+}
+
+#pe {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 740px;
+    top: 55px;
+}
+
+.n {
+    position: absolute;
+    color: white;
+    background-color: rgb(16, 133, 83);
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    top: 55px;
+    left: 890px
+}
+
+#p {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 55%;
+    padding: 13px 7px 13px 7px;
+    left: 1020px;
+    top: 55px;
+}
+
+.co {
+    color: rgb(16, 133, 83);
+}
+
+.co s {
+    color: rgb(147, 142, 142);
+}
+
+/* button { */
+    /* padding: 0; */
+/* } */
+p{
+    align-content: center;
+}
