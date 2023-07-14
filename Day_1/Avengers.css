@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-image:url(Avengers.jpeg) ;
+    background-size:cover;
+}
+nav {
+    font-family: 'PT Sans', sans-serif; 
+    display: block;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+
+ul{
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 30px 10px 30px;
+
+}
+li{
+    display: block;
+    top: 20px;
+    padding: 0px 30px 20px 30px;
+    float: right;
+}
+span{
+    font-size: 35px;
+}
+section{
+    margin-top: 365px;
+    margin-left: 100px;
+}
+h1{
+    margin: 0;
+    font-size: 115px;
+}
+p{
+    width: 700px;
+    font-size: 22px;
+}
+   

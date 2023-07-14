@@ -1,0 +1,7 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:'y y y y y'
+                        'r b b b b'
+                        'r b b b b'
+                        'j j j j j';
+}
