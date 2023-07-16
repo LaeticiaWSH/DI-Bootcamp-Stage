@@ -1,0 +1,35 @@
+body{
+    background-image: url(pexels-merlin-lightpainting-10874566.jpg);
+    background-size: cover;
+}
+div{
+    background-color: rgb(240, 239, 240);
+    padding: 20px;
+    border: 4px solid rgb(234, 213, 247);
+    margin-top: 250px;
+    height: 400px;
+    width: 600px;
+    margin-left: 450px;
+    text-align: center;
+    
+}
+h2{
+    color: rgb(156, 43, 226);
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+input{
+    padding: 5px 0px 5px 0px;
+    margin: 15px 0px 15px 0px;
+    font-size: 15px;
+}
+#last{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:  rgb(240, 239, 240);
+
+}

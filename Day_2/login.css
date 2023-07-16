@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    width: 800px;
+    margin: 200px 200px 0px 320px;
+}
+#left{
+    float: left;
+    background-color: rgb(251, 251, 251);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    
+}
+#right{
+    float: right;
+    background-color: blueviolet;
+    width: 400px;
+    height: 500px;
+}
+input{  
+    
+    padding: 8px;
+    margin: 8px;
+} 
+#bar{
+    width: 310px;
+    background-color: rgb(241, 241, 242);
+
+}
+h1{
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+.email{
+    margin-top: 0px;
+}
+#le{
+    float: left;
+    margin-top: 13px;
+    margin-left: 28px;
+    font-weight: 100;
+}
+.fp{
+    float: right;
+    margin-right: 30px;
+    font-weight: 100;
+}
+.purple{
+    padding: 4px;
+    background-color: rgb(160, 55, 192);
+    width: 320px;
+    margin-left: 35px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.line{ 
+    padding: 5px;
+    margin-left: 44px;
+    width: 310px;
+    display: flex;
+    flex-direction: row;
+     } 
+
+.line:before, 
+.line:after { 
+    content: "";
+    flex: 1 1;
+    border-bottom: 0.1px solid black;
+    margin: auto;
+} 
+svg{
+    font-size: 25px;
+    padding-left: 10px;
+}
+footer{
+    font-size: x-small;
+    margin-top: 85px;
+}
+#right{
+    background: rgb(37, 19, 48);
+    background: linear-gradient(156deg, rgba(37, 19, 48, 1) 5%, rgba(94, 9, 121, 1) 35%, rgba(160, 36, 195, 1) 71%);
+    text-align: center;
+}
+#plus{
+    font-size: 120px;
+    margin-top: 95px;
+}
+h2{
+    font-size: 40px;
+    color: aliceblue;
+}
