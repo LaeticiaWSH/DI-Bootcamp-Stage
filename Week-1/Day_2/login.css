@@ -105,11 +105,13 @@ h2{
 .container{
     width: 100px;
     border: 1px solid whitesmoke;
-    padding: 13px;
+    padding: 13px 20px 13px 13px;
     border-radius: 300px;
     margin: auto;
     margin-top: 15px;
 }
 #arrow{
     font-size: larger;
+    position: absolute;
+    
 }
