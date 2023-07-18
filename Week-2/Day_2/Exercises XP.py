@@ -138,6 +138,7 @@ finished_sandwiches.append("Chicken sandwich")
 print(sandwich_orders)
 print(finished_sandwiches)
 
+#Part 3
 for x in finished_sandwiches:
     print("I made your",x)
 
