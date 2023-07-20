@@ -3,7 +3,7 @@
 #     message = "I am currently learning the python course."
 #     print(message)
 
-#display_message()
+# display_message()
 
 # #EX 2
 # def favorite_book(title):
@@ -107,53 +107,53 @@
 #         print("Time to go for a swim.")
 # main()
  #EX 5
-data = [
-    {
-        "question": "What is Baby Yoda's real name?",
-        "answer": "Grogu"
-    },
-    {
-        "question": "Where did Obi-Wan take Luke after his birth?",
-        "answer": "Tatooine"
-    },
-    {
-        "question": "What year did the first Star Wars movie come out?",
-        "answer": "1977"
-    },
-    {
-        "question": "Who built C-3PO?",
-        "answer": "Anakin Skywalker"
-    },
-    {
-        "question": "Anakin Skywalker grew up to be who?",
-        "answer": "Darth Vader"
-    },
-    {
-        "question": "What species is Chewbacca?",
-        "answer": "Wookiee"
-    }
-]
+# data = [
+#     {
+#         "question": "What is Baby Yoda's real name?",
+#         "answer": "Grogu"
+#     },
+#     {
+#         "question": "Where did Obi-Wan take Luke after his birth?",
+#         "answer": "Tatooine"
+#     },
+#     {
+#         "question": "What year did the first Star Wars movie come out?",
+#         "answer": "1977"
+#     },
+#     {
+#         "question": "Who built C-3PO?",
+#         "answer": "Anakin Skywalker"
+#     },
+#     {
+#         "question": "Anakin Skywalker grew up to be who?",
+#         "answer": "Darth Vader"
+#     },
+#     {
+#         "question": "What species is Chewbacca?",
+#         "answer": "Wookiee"
+#     }
+# ]
 
-wrong_ans = [ ]
-wrong_quest = [ ]
-def StarWars():
-    correct_answer = 0
-    incorrect_answer = 0
-    for datas in data:
-        print(datas["question"])
-        answer =input("Enter your answer:")
-        if answer.lower() == datas["answer"].lower():
-            correct_answer += 1
-        else:
-            incorrect_answer += 1
-            wrong_ans.append(answer)
-            wrong_quest.append(datas["question"])
-    print("Your score is",correct_answer ,"/ 6\n")
-    # print(wrong_list)
-    i = 0
-    for items in wrong_ans:
-        print("Your wrong answer was",items, "to the question",wrong_quest[i])
-        i += 1
-    if incorrect_answer >= 3 :
-        print("Do you want to play again ?")
-StarWars()
+# wrong_ans = [ ]
+# wrong_quest = [ ]
+# def StarWars():
+#     correct_answer = 0
+#     incorrect_answer = 0
+#     for datas in data:
+#         print(datas["question"])
+#         answer =input("Enter your answer:")
+#         if answer.lower() == datas["answer"].lower():
+#             correct_answer += 1
+#         else:
+#             incorrect_answer += 1
+#             wrong_ans.append(answer)
+#             wrong_quest.append(datas["question"])
+#     print("Your score is",correct_answer ,"/ 6\n")
+#     # print(wrong_list)
+#     i = 0
+#     for items in wrong_ans:
+#         print("Your wrong answer was",items, "to the question",wrong_quest[i])
+#         i += 1
+#     if incorrect_answer >= 3 :
+#         print("Do you want to play again ?")
+# StarWars()
