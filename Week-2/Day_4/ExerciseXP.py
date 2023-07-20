@@ -134,12 +134,26 @@ data = [
     }
 ]
 
-correct_answer = 0
-incorrect_answer = 0
+wrong_ans = [ ]
+wrong_quest = [ ]
 def StarWars():
+    correct_answer = 0
+    incorrect_answer = 0
     for datas in data:
         print(datas["question"])
         answer =input("Enter your answer:")
-    
-
+        if answer.lower() == datas["answer"].lower():
+            correct_answer += 1
+        else:
+            incorrect_answer += 1
+            wrong_ans.append(answer)
+            wrong_quest.append(datas["question"])
+    print("Your score is",correct_answer ,"/ 6\n")
+    # print(wrong_list)
+    i = 0
+    for items in wrong_ans:
+        print("Your wrong answer was",items, "to the question",wrong_quest[i])
+        i += 1
+    if incorrect_answer >= 3 :
+        print("Do you want to play again ?")
 StarWars()
