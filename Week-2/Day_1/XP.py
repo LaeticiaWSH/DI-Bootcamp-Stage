@@ -39,13 +39,10 @@
 #else:
     #  print("You're lucky.")
 #Ex9
-print("Enter your height(Inch): ")
-print("Feet: ")
-h_ft = int(input())
-print("Inches: ")
-h = h_ft * 12
-height = round(h * 2.54,1)
-if height > 145:
-   print("Lucky you, you can ride the ride!")
-else:
-   print("Sorry! Not tall enough.")
+# print("Enter your height(Inch): ")
+# h_Inch = int(input())
+# height = round(h_Inch * 2.54)
+# if height > 145:
+#    print("Lucky you, you can ride the ride!")
+# else:
+#    print("Sorry! Not tall enough.")
