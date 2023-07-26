@@ -14,5 +14,7 @@ def display_board():
     print("*    |   |    *")
     print("*" ,row3, "*")
     print("*             *")
+    print("***************")
+display_board()
 player_1 = input("Enter your name player 1: ")
 player_2 = input("Enter your name player 2: ")
