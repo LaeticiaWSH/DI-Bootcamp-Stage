@@ -38,5 +38,7 @@ print(c1. __int__())
 # 10
 # print(c1. __add__())
 
-
+# >>> c1 + c2
+# 15
 print(c1. __add__(c2))
+
