@@ -1,3 +1,5 @@
+import string
+import random
 #Ex 1
 class Currency:
     def __init__(self, currency, amount):
@@ -70,3 +72,20 @@ print(c1. __add2__(c2))
 # >>> c1 + c3
 # TypeError: Cannot add between Currency type <dollar> and <shekel>
 print(c1. __add3__(c3))
+
+# Ex 3
+def randomNum(num):
+    n = random.randint(1,100)
+    if n == num :
+        return f"Good prediction!"
+    else:
+        return f"Too bad... try again.The number was {n}"
+    
+num = int(input("Enter a number between 1 and 100 : "))
+while num < 0 or num > 100:
+    print(f"Invalid number -- Retry.")
+    num = int(input("Enter a number between 1 and 100:"))
+
+print(randomNum(num))
+
+# Ex 4
