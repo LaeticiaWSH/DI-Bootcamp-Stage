@@ -40,7 +40,6 @@ while inp.lower() == "s":
     player1 = (input("\nSelect rock,paper,scissors: "))
     out = win(player1)
     out.winner()
-    # print(out.play())
     inp = input("\nPress s/x :")
 out.winlose()
 
