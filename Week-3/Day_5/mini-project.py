@@ -18,7 +18,6 @@ class win :
         G_list =[['rock','paper'],['paper','scissors'],['scissors','rock']]
         if self.output == self.choice:
             print("____It's a tie!____")
-            # string = "____It's a tie!____"
         else:
             for j in range(len(G_list)):
                 if self.output in G_list[j] and self.choice in G_list[j]:
