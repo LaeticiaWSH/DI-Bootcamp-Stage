@@ -40,3 +40,13 @@ list = [str(x) for x in list]
 print(list)
 l = ','.join(list)
 print(l)
+
+# Ex 2
+n_list =  [3, 47, 99, -80, 22, 97, 54, -23, 5, 7] 
+string = " "
+for n in n_list:
+     string += str(n) + " "
+print(string)
+
+n_list.sort(reverse = True)
+print("Sorted list in descending order: ",n_list)
