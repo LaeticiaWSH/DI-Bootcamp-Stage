@@ -78,13 +78,28 @@ import numpy as maths
 #           num1.append(n)
 # print(num1)
 
-n_list =  [3, 47, 99, -80, 22, 97, 54, -23, 5, 7] 
-for n in n_list:
-    if n < 0:
-        n_list.remove(n)
-print(n_list)
-num = []
-for n in n_list:
-      sqrt = n ** 2
-      num.append(sqrt)
- 
+#A list of all the numbers squared.
+# n_list =  [3, 47, 99, -80, 22, 97, 54, -23, 5, 7] 
+# for n in n_list:
+#     if n < 0:
+#         n_list.remove(n)
+# print(n_list)
+# num = []
+# for n in n_list:
+#       sqrt = n ** 2
+#       num.append(sqrt)
+# print(num)
+
+#The average of all the numbers.
+# total = 0
+# for n in n_list:
+#      total += n
+# avg = total / len(n_list)
+# print(avg)
+
+# #The largest number.The smallest number.
+# n_list.sort()
+# print(f"The smallest number of list = {n_list[0]}")
+# print(f"The largest number of the list = {n_list[len(n_list) - 1]}")
+
+#Ex 3
