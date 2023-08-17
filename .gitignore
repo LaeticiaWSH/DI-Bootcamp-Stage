@@ -3,4 +3,5 @@ rest2
 blog
 virtual_environment
 books_project
-
+.vscode
+my_environment
