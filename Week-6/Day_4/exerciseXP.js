@@ -129,11 +129,20 @@ for(let i = 0; i < z; i++){
 }
 // Ex 7
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+const list = []
 let size = names.length
 let society_name;
 for (let i = 0;i < size;i++){
     n = names[i]
     index = n.slice(0,1)
     society_name += index
+    list.push(index)
 }
-console.log(society_name)
+list.sort()
+let soc_name;
+console.log(list)
+for (let i = 0; i < list.length; i++) {
+    f = list[i]
+    soc_name += f
+}
+console.log(soc_name)
