@@ -38,6 +38,7 @@ form button{
     color: white;
     background-color: rgb(12, 120, 235);
     border-radius: 5px;
+    border-color: rgb(12, 120, 235);;
 }
 input, form button{
     font-size: 25px;
