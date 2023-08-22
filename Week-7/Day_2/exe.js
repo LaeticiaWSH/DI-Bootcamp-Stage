@@ -11,8 +11,11 @@ function insertRow() {
 function Responseonclick(event){
     if (event.type == "click")
         event.target.style.backgroundColor = "yellow"
+        
+        
     if (event.type == "dblclick")
         event.target.style.backgroundColor = "red"
 }
 document.getElementById("jsstyle").addEventListener("click", Responseonclick);
 document.getElementById("jsstyle").addEventListener("dblclick", Responseonclick);
+document.getElementById("div").addEventListener("click", Responseonclick);
