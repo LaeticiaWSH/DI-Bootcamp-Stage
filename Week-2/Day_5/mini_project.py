@@ -19,7 +19,7 @@ def display_board():
 display_board()
 player = print(input("Enter player index(1/2) : "))
 def player_input(player):
-    # player = print(input("Enter player index(1/2) : "))
+    player = print(input("Enter player index(1/2) : "))
     position =int(input("Enter your position(0 - 8) :"))
     if player == 1:
         symbol = "X"
@@ -45,5 +45,11 @@ def check_win():
     ]
     for x in range(0,len(win)):
         if win[x] == "X":
-            pass
+            print("Player 1 has won")
+        else:
+            if win[x] == "O":
+                print("Player 2 has won")
+
+player_input(player)
+check_win()
    
