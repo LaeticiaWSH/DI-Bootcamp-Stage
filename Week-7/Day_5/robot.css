@@ -1,0 +1,18 @@
+/* @font-face {   
+    font-family: 'segafont';
+    src: url('SEGA.ttf') format('ttf');
+} */
+nav{
+    display: flex;
+    flex-direction: flex-start;
+ 
+
+    
+    
+}
+#nav{
+    font-family: 'SEGA LOGO FONT', sans-serif;
+}
+/* .search{
+   
+} */
