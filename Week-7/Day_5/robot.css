@@ -12,7 +12,15 @@ nav{
 }
 #nav{
     font-family: 'SEGA LOGO FONT', sans-serif;
+    font-size: 20px;
 }
-/* .search{
-   
-} */
+#search{
+
+    margin-left: 40px;
+}
+input{ 
+    font-size: 20px;
+}
+button{
+    font-size:  20px;
+}
