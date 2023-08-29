@@ -53,7 +53,8 @@ class Dog {
 };
 // Analyze the options below. Which constructor will successfully extend the Dog class?
 // my answer:
-// 3
+// 
+
 class Labrador extends Dog {
     constructor(size) {
         super(name);
@@ -89,12 +90,12 @@ class Animal{
     }
 }
 class Mamal extends Animal{
-    constructor(name,type,color,sound){
+    constructor(name,type,color,soundmake){
     super(name,type,color);
-    this.sound = sound
+    this.soundmake = soundmake
     }
-    soundmake(){
-        console.log(`The ${this.type} named ${this.name} of color ${this.color} make the ${this.sound} sound.`)
+    sound(){
+        console.log(`The ${this.type} named ${this.name} of color ${this.color} make the ${this.soundmake} sound.`)
     }
     farmerCow(name,type,color){
         console.log(`Mooooo I'm a ${type} named ${name} and I'm ${color}`)
@@ -103,6 +104,6 @@ class Mamal extends Animal{
 }
 
 let cow = new Mamal('Mitzie','cow','white and black','mooo')
-cow.soundmake()
+cow.sound()
 cow.farmerCow("Lily","cow","brown and white")
 
