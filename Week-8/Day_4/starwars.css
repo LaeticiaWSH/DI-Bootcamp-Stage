@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'starwars';
+    src: local('Starjout.ttf') ,
+        url('Starjout.ttf') format('truetype');
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(200.webp);
+
+
+    font-family: 'Helvetica Neue';
+    text-align: center;
+
+    color: yellow;
+    ;
+}
+h1{
+    font-family: 'starwars';
+    font-size: 125px;
+}
+#below{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+}
+#above{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#contain-info{
+    margin-left: 280px;
+    width: 900px;
+    height: 450px;
+    border: 2px solid yellow;
+    border-radius: 25px;
+}
+h2{
+    font-size: 40px;
+    color:aliceblue
+}
+p{
+    font-size: 30px;
+    color: aliceblue;
+}
+button{
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: aliceblue;
+} 
